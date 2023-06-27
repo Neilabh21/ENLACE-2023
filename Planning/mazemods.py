@@ -34,7 +34,7 @@ def maze(n,m,O):
     ax.invert_yaxis() # Needed so that bottom left is (0,0)
     # ax.grid(color = 'b', linewidth = 2)
     # ax.set_frame_on(False)
-    #ax.axis('off')
+    ax.axis('off')
 
 
 # Checks for collisions given position x, control u, obstacle list O
